@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+
+.menucon{width: 316px; height: 970px;
+    background-image:url(../images/传染媒介老虎镶边无缝的皮肤印刷品背景-动物与线的样式无缝的背景-149992012.jpg);
+    border: 15px solid black;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    margin-right: 3px;
+    }
+.menu{width: 200px; height: 800px; background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border: 8px solid black;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: gabriola;
+    font-weight: bolder;
+    font-size: 26px;
+}    
+.menu li{margin-top: 50px;}
+.menu li:first-child{margin-top: 70px;}
+.menu li:last-child{margin-bottom: 70px;}
+.menu input{width: 140px; height: 25px;}
+
+.wrap{display: flex; justify-content: center;}
+
+.con1 div, .con2 div, .con3 div, .con4 div, .con5 div, .con6 div
+{width: 241px; height: 218px;
+    margin-left: 20px;    
+    margin-top: 20px;
+    margin-bottom: 17px;
+    border-radius: 7%;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+.yellow{background-color: yellow;}
+.red{background-color: red;}
+.orange{background-color: orangered;}
+.white{background-color: white;}
+.black{background-color: black;}
+.green{background-color: green;}
+.wrap a{display: block; width: 100%; height: 100%;}
+
+
+.con1 .yellow{background-image: url(../images/diego-2.png); background-position: center;}
+.con3 .yellow{background-image: url(../images/diego-3.jpg); background-position: center;}
+.con4 .yellow{background-image: url(../images/diego-4.JPG); background-position: center;}
+.con6 .yellow{background-image: url(../images/diego-5.jpg); background-position: center;}
+
+.con1 .red{background-image: url(../images/henri-2.png); background-position: center;}
+.con3 .red{background-image: url(../images/henri-3.jfif); background-position: center;}
+.con5 .red{background-image: url(../images/henri-4.jpg); background-position: center;}
+.con6 .red{background-image: url(../images/henri-5.jfif); background-position: center;}
+
+.con2 .orange{background-image: url(../images/rene-2.png); background-position: center;}
+.con3 .orange{background-image: url(../images/rene-1.png); background-position: center;}
+.con4 .orange{background-image: url(../images/rene-4.jpg); background-position: center;}
+.con6 .orange{background-image: url(../images/rene-5.webp); background-position: center;}
+
+.con1 .white{background-image: url(../images/klimt-2.jpg); background-position: center;}
+.con2 .white{background-image: url(../images/klimt-3.png); background-position: center;}
+.con5 .white{background-image: url(../images/klimt-4.jfif); background-position: center;}
+.con6 .white{background-image: url(../images/klimt-5.jfif); background-position: center;}
+
+.con1 .black{background-image: url(../images/egon-2.jfif); background-position: center;}
+.con2 .black{background-image: url(../images/egon-3.jfif); background-position: center;}
+.con4 .black{background-image: url(../images/egon-4.jpg); background-position: center;}
+.con5 .black{background-image: url(../images/egon-5.png); background-position: center;}
+
+.con2 .green{background-image: url(../images/lee-2.jfif); background-position: center;}
+.con3 .green{background-image: url(../images/lee-3.jfif); background-position: center;}
+.con4 .green{background-image: url(../images/lee-4.png); background-position: center;}
+.con5 .green{background-image: url(../images/lee-5.png); background-position: center;}
+
+
+/*.menucon>.menu>ul>.l1:hover .yellow{  transform: rotateY(180deg);
+    display: none;}*/
+.menucon li:hover{text-decoration: underline;}
+
+            
+
+
+
+
+.header{height: 70px; width: 100%; font-size: 24px; font-family: microsoft yi baiti;
+    background-color: black; position: relative;
+    
+
+}
+.header ul{display: flex;  justify-content: center; padding-top: 20px; }
+.header li{color: white; margin-left: 60px;  margin-right: 60px; font-size: 25px; }
+
+.gnb{width: 100%; height: 400px; background-color: black; line-height: 60px;
+    position: absolute; z-index: 20; opacity: 0.8;
+    display: flex; justify-content: center; display: none; }
+.gnb ul{display: block; color: aliceblue; }
+.ul1{transform: translate(-178%);}
+.ul2{transform: translate(-120%);}
+.ul3{transform: translate(-12%);}
+.ul4{transform: translate(68%);}
+.ul5{transform: translate(155%);}
+
+
+
+
+
+
+
+.wrap1{display: flex; justify-content: center; margin-top: 200px;}
+h1{display: block; margin-right: 100px; font-size: 40PX;
+   font-family: candara;
+   font-weight: lighter;}
+section1{width: 890px;  height: 360px;
+    box-shadow: 0 0 15px #666;
+    display: flex;
+    position: relative;
+    margin-bottom: 200px; 
+    overflow: hidden;
+    font-size: 20px;  font-family: arial; line-height: 35px; 
+    color: #333;  
+}
+section1 .img1{background-image: url(../images/Charles_de_Groux.jpeg); background-size: 400px ;
+    width: 346px;  height: 284px; margin-right: 100px; display: block;
+}
+section1 .img2{background-image: url(../images/constantine-meunier.jpg); background-size: 346px;
+    width: 346px;  height: 284px; margin-right: 75px; display: block;
+}
+section1 .img3{background-image: url(../images/honore-daumier-2.jpg); background-size: 400px;
+    width: 346px;  height: 284px; margin-right: 100px; display: block;
+}
+section1 li{display: flex; justify-content: center;
+    align-items: center;
+    width: 890px;  height: 360px;
+}
+section1 a{display: block; width: 100%; height: 100%;}
+span{font-size: 30px; display: block; margin-bottom: 5px;}
+
+.wrap2{display: flex; justify-content: center;}
+h2{display: block; margin-right: 110px; font-size: 40PX;
+   font-family: candara;
+   font-weight: lighter;}
+section2{width: 890px;  height: 360px;
+    box-shadow: 0 0 15px #666;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 280px;
+    font-size: 20px;  font-family: arial; line-height: 35px; 
+    overflow: hidden;
+    color: #333;
+}
+section2 .img1{background-image: url(../images/kandinsky-1.jpg); background-size: 346px; background-position: center;
+    width: 346px;  height: 284px; margin-right: 70px; display: block
+}
+section2 .img2{background-image: url(../images/chagal-1.jfif); background-size: 346px;
+    width: 346px;  height: 284px; margin-right: 120px; display: block;
+}
+section2 .img3{background-image: url(../images/ernst-1.jpg); background-size: 346px;
+    width: 346px;  height: 284px; margin-right: 80px; display: block;
+}
+section2 li{display: flex; justify-content: center;
+    align-items: center;
+    width: 890px;  height: 360px;
+}
+
+section2 a{display: block; width: 100%; height: 100%;}
+
+
+
+
+section3 div{width: 335px;   height: 460px;  box-shadow: 0 0 15px #333;
+     border-radius: 10%; margin-left: 50px; margin-right: 50px;
+     position: relative;}
+section3 .img1{background-image: url(../images/egon-1.png); background-size: 700px; background-position: 30% 10%; background-repeat: no-repeat;}
+section3 .img2{background-image: url(../images/egon-6.jpg); background-size: 600px; background-position: 90% 10%; background-repeat: no-repeat;}  
+section3 .img3{background-image: url(../images/klimt-4.jfif); background-size: cover;  background-position: center; background-repeat: no-repeat;;}
+section3 .img4{background-image: url(../images/klimt-6.jfif); background-size: cover; background-position: center; background-repeat: no-repeat;}
+
+section3{display: flex; justify-content: center; margin-bottom: 230px;}
+section3 a{display: block; width: 100%;  height: 100%;}
+.over{background-color: ivory;
+    position: absolute;  top: 0;  left: 0;
+    opacity: 0; transition: all;
+    border-radius: 10%;
+}
+.over:hover{opacity: 0.4;}     
+section3 div:hover{box-shadow: 0 0 15px #666;}
+
+
+
+
+.banner .img1{background-image: url(../images/realback-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% 10%;
+    height: 800px;
+    
+    
+
+}
+figure{position: relative; margin-bottom: 80px;}
+iframe{
+    position: absolute;
+    top: 200px;
+    transform: translateX(120%);
+    box-shadow: 0px 0px 10px black;
+     }
+figure p{font-size: 30px; font-weight: bolder; font-style: italic;
+         position: absolute;
+         top: 200px;
+         transform: translateX(180%);
+
+}
+
+
+.list li{height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: gray;
+    margin-left: 4px;
+    margin-right: 4px;
+    }
+
+.list{
+    display: flex;
+    list-style:none;
+    position: absolute;
+    top: 640px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.list a{display:block;
+    width: 100%; height: 100%; }
+
+
+
+/* Slider-1 */
+.slick-dots{
+    display: flex;
+    list-style:none;
+    justify-content: center;
+}
+
+.slick-dots li{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.slick-dots button{
+    width: 500px;
+    height: 500px;
+    border:0;
+    background-color:gray;
+    border-radius: 50%;
+    text-indent: -9999px;
+}
+
+.slick-active button{
+    background-color: black;}
+
+/* Slider-2 */
+.slick-track:before,
+.slick-track:after
+{display: table; content: '';}
+.slick-track:after{clear: both;}
+.slick-slide{float: left;}
+
+
+.nemo{display: flex; height: 500px; justify-content: center; align-items: center; margin-bottom: 150px;}
+.nemo .con{display: flex; margin-left: 60px; margin-right: 60px;}
+.nemo .con .img1, .nemo .con .img2{width: 300px;   height: 300px; 
+    background-image: url(../images/new-1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 0;
+    margin-right: 30px;
+}
+.nemo .con .img2{background-image: url(../images/new-2.png);}
+.nemo p{display: block;
+    width: 300px;  height: 300px; 
+    font-size: 25px;
+    
+}
+.nemo a{display: block; width: 100%; height: 100%;}
+.nemo .img1:hover{transform: scale(1.5);}
+.nemo .img2:hover{transform: scale(1.5);}
+.nemo span5{font-size: 40px;}
+
+h5{display: block; font-size: 40PX;
+    font-family: candara;
+    font-weight: lighter;
+    margin-top: 150px; 
+    transform: translate(15%);
+}
+
+
+
+.attachment{height: 500px;
+    background-image: url(../images/diego-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 2100px;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: constantia;
+    font-weight: bolder;
+    padding-top: 270px;
+}
+
+
+.footer{background-color: black;
+    margin-top: 30px;
+    font-size: 13px;
+    color: white;
+    font-family: sans-serif;
+    height: 50px;
+}
+h11{font-weight: lighter;}
+
+.wrap10{
+width: 950px;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+justify-content: space-between;
+padding-top: 15px;
+}   
+
+
+/*$('.slide div').hide();
+$('.slide div:first-child').show();
+
+setInterval(function(){
+    $('.slide div:first-child').fadeOut()
+    .next().fadeIn().end(3000)
+    .appendTo('.slide');
+},3000);
+
+$('.slide').show({
+    'dots' : true
+});*/
+
+
+/*<figure>
+    <div class="slide">
+        <div class="box1"><p>cmvnmxvbxmvbmx<br>xmvbxmv<br>nvx,cv</p><iframe width="700" height="400" src="https://www.youtube.com/embed/mP5GQkGycTs" title="Egon Schiele- Understanding Modern Art" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="box2"><p>jjvnmxvbxmvbmx<br>xmvbxmv<br>nvx,cv</p><iframe width="700" height="400" src="https://www.youtube.com/embed/SNhmSdLDmto" title="The Kiss by Gustav Klimt: Great Art Explained" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="box3"><p>cmvnmxvbxmvbmx<br>xmvbxmv<br>nvx,cv</p><iframe width="700" height="400" src="https://www.youtube.com/embed/r6K2YTyN4jg" title="Diego Rivera: Moving a Masterpiece" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    </div>
+    
+
+    <div class="banner">
+        <div class="img1"></div></div></figure>*/
+
+
+       /* <div class="gnb">
+        <ul class="ul1">
+            <li><a href="#">Gustav Klimt</a></li>
+            <li><a href="#">Gustave Moreau</a></li>
+            <li><a href="#">Fernand Khnopff</a></li>
+            <li><a href="#">Mikhail Vrubel</a></li>
+            <li><a href="#">Franz von Stuck</a></li></ul>   
+        <ul class="ul2" >
+            <li><a href="#">René Magritte</a></li>
+            <li><a href="#">Salvador Dalí</a></li>
+            <li><a href="#">Joan Miró</a></li>
+            <li><a href="#">Max Ernst</a></li>
+            <li><a href="#">Luis Buñuel</a></li></ul> 
+        <ul class="ul3">
+            <li><a href="#">Diego Rivera</a></li>
+            <li><a href="#">Charles de Groux</a></li>
+            <li><a href="#">Constantin Meunier</a></li>
+            <li><a href="#">Honoré Daumier</a></li></ul> 
+        <ul class="ul4" >
+            <li><a href="#">Henri Rousseau</a></li>
+            <li><a href="#">Vincent van Gogh</a></li>
+            <li><a href="#">Paul Gauguin</a></li>
+            <li><a href="#">Paul Cézanne</a></li>
+            <li><a href="#">Henri Matisse</a></li></ul>  
+        <ul class="ul5">
+            <li><a href="#">Egon Schiele</a></li>
+            <li><a href="#">Wassily Kandinsky</a></li>
+            <li><a href="#">Edvard Munch</a></li>
+            <li><a href="#">Marc Chagal</a></li>
+            <li><a href="#">Ernst Ludwig Kirchner</a></li></ul>
+     </div>*/
+     
